@@ -1,6 +1,6 @@
 { pkgs }:
 
-pkgs.nix-webapps-lib.mkChromiumApp {
+pkgs.nix-webapps-lib.mkFirefoxApp {
   appName = "teams";
   desktopName = "Microsoft Teams";
   url = "https://teams.microsoft.com";
